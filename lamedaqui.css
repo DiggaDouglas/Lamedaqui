@@ -1,0 +1,448 @@
+/* lamedaqui.css */
+
+/* Apply a background image to the body */
+body {
+    background-image: url('Developing Friendship Skills_ Help for Kids and Teens on the Autism Spectrum (1).jpeg'); /* Change to your background image path */
+    background-size: cover; /* Ensure the background covers the whole screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-attachment: fixed; /* Make the background image fixed when scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set a default font family */
+    color: #333; /* Set a default text color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for header */
+header {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styling for hero section */
+.hero {
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for sections */
+.section {
+    padding: 40px 0;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for team section */
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 200px; /* Set a uniform width */
+    height: 200px; /* Set a uniform height */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-radius: 50%; /* Make images circular */
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* Resource categories */
+.resource-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.resource-category {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 30px;
+    flex: 1;
+    max-width: 30%;
+    text-align: left;
+    transition: transform 0.3s ease; /* Adding transition property */
+}
+
+.resource-category:hover {
+    transform: translateY(-10px); /* Moving the box up by 10px */
+}
+
+.resource-category h3 {
+    color: black;
+}
+
+.resource-category p {
+    margin-bottom: 10px;
+}
+
+.resource-category ul {
+    list-style: upper-roman;
+    padding: 0;
+}
+
+.resource-category ul li {
+    margin-bottom: 10px;
+}
+
+.resource-category ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    transition: color 0.3s ease;
+}
+
+.resource-category ul li a:hover {
+    color: blue;
+}
+
+.resource-section {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Membership section specific styles */
+.membership-section {
+    background: rgba(203, 202, 202, 0.308); /* Slightly different background for the membership section */
+    padding: 40px 0;
+}
+
+.membership-section h2 {
+    color: #ff6347; /* Different color for the section heading */
+}
+
+/* Membership tiers */
+.membership-tiers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.membership-tier {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+    max-width: 45%;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+}
+
+.membership-tier:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.membership-tier h3 {
+    color: black;
+}
+
+.membership-tier p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.membership-tier ul {
+    list-style: none;
+    padding: 0;
+}
+
+.membership-tier ul li {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.membership-tier ul li::before {
+    content: "✔";
+    color: #77d0c1;
+    margin-right: 10px;
+}
+
+
+/* Service pricing styles */
+.service-pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.service {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+    max-width: 30%;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service h3 {
+    color: #77d0c1;
+}
+
+.service p {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.group-card {
+    background-color: #f7f7f7; /* Light gray background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: background-color 0.3s ease; /* Transition effect on hover */
+}
+
+.group-card:hover {
+    background-color: #edebeb; /* Lighter gray background on hover */
+}
+
+.group-card h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+}
+
+.group-card p {
+    margin-bottom: 10px;
+    color: #666; /* Medium gray text */
+}
+
+.group-card.group-meta {
+    font-size: 0.9em;
+    color: #999; /* Light gray text */
+}
+
+.group-card.group-meta span {
+    margin-right: 10px;
+}
+
+.group-card.group-button {
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.group-card.group-button:hover {
+    background-color: #3e8e41; /* Darker green background on hover */
+}
+.counsellor-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.counsellor-card:hover {
+    background-color: #edebeb;
+}
+
+.counsellor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.counsellor-card h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.counsellor-card p {
+    margin-bottom: 10px;
+    color: #666;
+}
+.book-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #3e8e41;
+}
+.contact-card {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1d1919;
+    border: 1px solid #171515;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.contact-form input[type="submit"]:focus {
+    outline: none;
+}
+
+.contact-form input[type="submit"]:active {
+    background-color: #2e6d33;
+}
